@@ -281,3 +281,120 @@ footer{
 
 </body>
       </html>
+<!-- ===== INTERIOR DESIGN GALLERY ===== -->
+
+<section class="gallery-section">
+
+  <h2>Our Interior Designs</h2>
+  <p class="gallery-subtitle">
+    Modern Interior Designs by M R Interior Decor
+  </p>
+
+  <div class="gallery">
+
+    <!-- PVC Ceiling -->
+    <div class="gallery-item">
+      <img src="pvc-ceiling.jpg" alt="Modern PVC Ceiling Design">
+      <div class="gallery-title">PVC Ceiling</div>
+    </div>
+
+    <!-- False Ceiling -->
+    <div class="gallery-item">
+      <img src="false-ceiling.jpg" alt="Modern False Ceiling Design">
+      <div class="gallery-title">False Ceiling</div>
+    </div>
+
+    <!-- Wallpaper -->
+    <div class="gallery-item">
+      <img src="wallpaper.jpg" alt="Modern Wallpaper Design">
+      <div class="gallery-title">Wallpaper Installation</div>
+    </div>
+
+    <!-- Wooden Flooring -->
+    <div class="gallery-item">
+      <img src="wooden-flooring.jpg" alt="Wooden Flooring Design">
+      <div class="gallery-title">Wooden Flooring</div>
+    </div>
+
+    <!-- UV Marble -->
+    <div class="gallery-item">
+      <img src="uv-marble.jpg" alt="UV Marble Wall Design">
+      <div class="gallery-title">UV Marble Sheet</div>
+    </div>
+
+    <!-- Living Room -->
+    <div class="gallery-item">
+      <img src="living-room.jpg" alt="Modern Living Room Interior">
+      <div class="gallery-title">Living Room Interior</div>
+    </div>
+
+    <!-- Modular Kitchen -->
+    <div class="gallery-item">
+      <img src="modular-kitchen.jpg" alt="Modern Modular Kitchen">
+      <div class="gallery-title">Modular Kitchen</div>
+    </div>
+
+    <!-- Office Interior -->
+    <div class="gallery-item">
+      <img src="office-interior.jpg" alt="Modern Office Interior">
+      <div class="gallery-title">Office Interior</div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<style>
+
+.gallery-section{
+  background:#f5f5f5;
+  padding:50px 20px;
+  text-align:center;
+}
+
+.gallery-section h2{
+  font-size:32px;
+  margin-bottom:8px;
+}
+
+.gallery-subtitle{
+  color:#666;
+  margin-bottom:30px;
+}
+
+.gallery{
+  max-width:1100px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:
+    repeat(auto-fit,minmax(240px,1fr));
+  gap:20px;
+}
+
+.gallery-item{
+  background:white;
+  border-radius:14px;
+  overflow:hidden;
+  box-shadow:0 5px 18px rgba(0,0,0,.12);
+  transition:.3s;
+}
+
+.gallery-item:hover{
+  transform:translateY(-5px);
+}
+
+.gallery-item img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  display:block;
+}
+
+.gallery-title{
+  padding:15px;
+  font-size:18px;
+  font-weight:bold;
+}
+
+      </style>
